@@ -12,6 +12,9 @@
 		5B5153821DFB220A0086F42D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5153801DFB220A0086F42D /* Main.storyboard */; };
 		5B5153841DFB220A0086F42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5153831DFB220A0086F42D /* Assets.xcassets */; };
 		5B5153871DFB220A0086F42D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5153851DFB220A0086F42D /* LaunchScreen.storyboard */; };
+		5BA8A9271DFD08820012FF43 /* VistaResultados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8A9261DFD08820012FF43 /* VistaResultados.swift */; };
+		5BA8A9291DFD0FFF0012FF43 /* VistaTipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8A9281DFD0FFF0012FF43 /* VistaTipoMasa.swift */; };
+		5BA8A92B1DFE5DDC0012FF43 /* resultados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8A92A1DFE5DDC0012FF43 /* resultados.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5B5153831DFB220A0086F42D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B5153861DFB220A0086F42D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B5153881DFB220A0086F42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA8A9261DFD08820012FF43 /* VistaResultados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaResultados.swift; sourceTree = "<group>"; };
+		5BA8A9281DFD0FFF0012FF43 /* VistaTipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTipoMasa.swift; sourceTree = "<group>"; };
+		5BA8A92A1DFE5DDC0012FF43 /* resultados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultados.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				5B5153831DFB220A0086F42D /* Assets.xcassets */,
 				5B5153851DFB220A0086F42D /* LaunchScreen.storyboard */,
 				5B5153881DFB220A0086F42D /* Info.plist */,
+				5BA8A9261DFD08820012FF43 /* VistaResultados.swift */,
+				5BA8A9281DFD0FFF0012FF43 /* VistaTipoMasa.swift */,
+				5BA8A92A1DFE5DDC0012FF43 /* resultados.swift */,
 			);
 			path = PizzApp;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			files = (
 				5B51537F1DFB220A0086F42D /* ViewController.swift in Sources */,
 				5B51537D1DFB220A0086F42D /* AppDelegate.swift in Sources */,
+				5BA8A92B1DFE5DDC0012FF43 /* resultados.swift in Sources */,
+				5BA8A9271DFD08820012FF43 /* VistaResultados.swift in Sources */,
+				5BA8A9291DFD0FFF0012FF43 /* VistaTipoMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				5B51538D1DFB220A0086F42D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
